@@ -57,7 +57,7 @@ leaderboardState.prototype = {
 	    barBottom.drawRect(0, this.game.height - 80, this.game.width, 80);
 	    barBottom.endFill();
 
-	    scoreText = this.add.text(5, 5, 'Highscore',this.styleTextH); 
+	    scoreText = this.add.text(5, 5, '',this.styleTextH); 
 		scoreText.setShadow(2, 2, 'rgba(0,0,0,0.5)', 2);		    
                    
 this.restartBtn = game.add.button(60,game.height-40,'restartBtn',function(){
